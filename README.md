@@ -1,8 +1,22 @@
-# Unit 18 PWA Homework: Online/Offline Budget Trackers
+# Budget Tracker PWA
 
-Add functionality to our existing Budget Tracker application to allow for offline access and functionality.
+\*[Description](#Description)
 
-The user will be able to add expenses and deposits to their budget with or without a connection. When entering transactions offline, they should populate the total when brought back online.
+\*[Installation](#Installation)
+
+\*[Usage](#Usage)
+
+\*[Contributing](#Contributing)
+
+\*[Testing](#Testing)
+
+\*[License](#License)
+
+## Description
+
+This project incorporates adding functionality to a Budget Tracker to allow for offline access and use.
+
+- A user can add expenses and deposits to their budget with or without a connection
 
 Offline Functionality:
 
@@ -10,54 +24,50 @@ Offline Functionality:
 
 - Enter expenses offline
 
-When brought back online:
+When Online (or brought back online):
 
-- Offline entries should be added to tracker.
+- Offline entries are added to the budget tracker
 
-## User Story
+![Budget Tracker](./public/assets/budget-app.png)
 
-AS AN avid traveller
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling
+To view the final application demo, please use this link:
 
-## Business Context
+- https://whispering-plateau-01348.herokuapp.com/
 
-Giving users a fast and easy way to track their money is important, but allowing them to access that information anytime is even more important. Having offline functionality is paramount to our applications success.
+# Installation
 
-## Acceptance Criteria
+The code for the Budget Tracker can be found on github using the following link:
 
-GIVEN a user is on Budget App without an internet connection
-WHEN the user inputs a withdrawal or deposit
-THEN that will be shown on the page, and added to their transaction history when their connection is back online.
+- https://github.com/shelbyandersen/offline-budget-tracker
 
----
+# Usage
 
-## Commit Early and Often
+The Budget Tracker is a PWA (Progressive Web Application) that utilizes node.js, Express, and MongoDB to create and store data for the application. The application is deployed on Heroku.
 
-- One of the most important skills to master as a web developer is version control. Building the habit of committing via Git is important for two reasons:
+# Contributing
 
-1. Your commit history is a signal to employers that you are actively working on projects and learning new skills
+The initial design of this application was provided by Trilogy Educational Services.
 
-2. Your commit history allows you to revert your code base in the event that you need to return to a previous state
+The application backend was completed by Shelby Andersen
 
-- Follow these guidelines for committing:
+# Testing
 
-  - Make single purpose commits for related changes to ensure a clean, manageable history. If you are fixing two issues, make two commits
+To test this application you will need to fork the repo here:
 
-  - Write descriptive, meaningful commit messages so that you and anyone else looking at your repository can easily understand its history
+- https://github.com/shelbyandersen/offline-budget-tracker
 
-  - Don't commit half done work, for the sake of your collaborators (and your future self!)
+You will need to `npm install` to install the required packages, you will also need to run Mongo and start the server with `node server.js`
 
-  - Test your application before you commit to ensure functionality at every step in the development process
+# License
 
-- We would like you to have well over 200 commits by graduation, so commit early and often!
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-- Deploy your application with [Heroku and MongoDB Atlas.](../04-Important/MongoAtlas-Deploy.md)
+MIT License
 
-## Submission on BCS
+Copyright (c) [2021] [Shelby Andersen]
 
-- You are required to submit the following:
+Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions: The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
 
-  - the URL to the deployed application
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-  - the URL to the Github repository
+© 2021 Shelby Andersen in Collaboration with Georgia Tech Coding Boot Camp. All Rights Reserved.
